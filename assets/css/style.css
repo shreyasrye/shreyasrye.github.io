@@ -1,0 +1,18 @@
+/* Change background color */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Make headings stand out */
+h1 {
+    color: #3498db;
+}
+
+/* Chatbot container styling */
+.chatbot-container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

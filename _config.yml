@@ -1,3 +1,35 @@
-theme: jekyll-theme-midnight
-title: Shreyas Rai
-description: About me and my projects
+# Set theme
+remote_theme: daviddarnes/alembic@main
+
+# Site settings
+url: 'https://shreyasrai.github.io'
+baseurl: ''
+title: 'Shreyas Rai'
+description: 'My personal website showcasing projects and AI chatbot'
+logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+
+# Navigation (Header)
+navigation_header:
+- title: Home
+  url: /
+- title: Projects
+  url: /projects/
+- title: Chatbot
+  url: /chatbot/
+- title: About
+  url: /about/
+
+# Navigation (Footer)
+navigation_footer:
+- title: Back to top
+  url: "#top"
+
+# Collections
+collections:
+  projects:
+    title: Projects
+    output: true
+    description: "A showcase of my work"
+    feature_text: |
+      My AI and Software Development Projects
+    feature_image: "https://picsum.photos/2560/600?image=866"
